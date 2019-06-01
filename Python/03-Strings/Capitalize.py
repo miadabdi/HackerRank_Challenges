@@ -1,5 +1,3 @@
-#!/bin/python3
-
 import math
 import os
 import random
@@ -20,7 +18,7 @@ def solve(s):
             s_new += s[index].upper()
         else:
             s_new += s[index]
-    return s_new=
+    return s_new
 
 
 if __name__ == '__main__':
